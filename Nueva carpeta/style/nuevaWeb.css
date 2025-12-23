@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.pixelify-sans{
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+.fotoArticulo{
+    height: 15em;
+    overflow: hidden;
+}
+
+#brand{
+    height: 80px;
+}
+
+#age{
+    width: 45px;
+}
+
+#catalogo .card{
+    border:1px solid grey;
+    box-shadow: 2px 4px grey;
+    transform: translateY(-5px) translateX(-3px);
+}
+
+.card button{
+    color: red;
+}
+.fav {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.price{
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 900px){
+    section#contacto{
+        width: 90%;
+        margin: auto;
+    }
+    .price{
+    font-size: 1rem;
+}
+}
+
+
