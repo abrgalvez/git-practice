@@ -1,0 +1,73 @@
+:root{
+    --background: white;
+    --text-color: black;
+}
+
+body{
+    transition: background-color .3s, color .3s;
+}
+
+[data-bs-theme="dark"] #btnCon {
+    --bs-btn-color: #fff;
+    --bs-btn-border-color: #fff;
+}
+
+[data-bs-theme="light"] #btnCon {
+    --bs-btn-color: #000;
+    --bs-btn-border-color: #000;
+}
+
+#formulario{
+    width: 90%;
+    max-width: 800px;
+    text-align:left;
+}
+#formulario h2{
+    text-align: center;
+}
+
+#age{
+    width: 5rem;
+}
+
+
+section .card{
+    border:1px solid #000000;
+    max-width: 15rem;
+    margin-inline:auto;
+    transition:  .1s linear;
+    min-height: 21rem;
+    
+}
+
+
+section .card:hover{
+    border:1px solid #000000;
+    box-shadow: 2px 4px #000000;
+    transform: translateY(-5px) translateX(-3px);
+}
+
+section:not(:first-of-type){
+    text-align: center;
+    padding-top: 50px;
+}
+section.hero{
+    align-items: center;
+}
+section.hero img{
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+}
+
+section.services i{
+    font-size: 2rem;
+    margin: 1rem auto;
+    border: 2px solid black;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
